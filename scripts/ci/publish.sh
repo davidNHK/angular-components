@@ -25,9 +25,9 @@ export RELEASE_BRANCH="release-$VERSION"
 COMMIT_MESSAGE="publish v$VERSION [skip ci]"
 git switch -c "$RELEASE_BRANCH"
 
+npm version -m "$COMMIT_MESSAGE" $VERSION
 npx ng build ngx-components
 cd ./dist/ngx-components
-npm version -m "$COMMIT_MESSAGE" $VERSION
 npm publish
 git push --set-upstream origin "$RELEASE_BRANCH"
 export RELEASE_VERSION=$VERSION
