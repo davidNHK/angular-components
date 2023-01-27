@@ -26,9 +26,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: '0'
-      - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
       - name: Use Node.js lts
         uses: actions/setup-node@v3
         with:
