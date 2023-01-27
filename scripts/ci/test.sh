@@ -3,5 +3,5 @@
 set -ex
 
 npx ng lint
-npx ng build
+npx ng build ngx-components
 npm run test
