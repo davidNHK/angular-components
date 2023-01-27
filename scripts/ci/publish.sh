@@ -17,7 +17,7 @@ else
     echo "Use date version on development"
     VERSION=$(date +"%Y.%-m.%-d-alpha.$(($(date +"%-H") + 1))%M")
   else
-    echo "Use date version on master"
+    echo "Use date version on main"
     VERSION=$(date +'%Y.%-m.%-d')
   fi
 fi
