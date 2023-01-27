@@ -28,7 +28,7 @@
     "@busybox/prettier-config": "2023.1.24-alpha.1451",
     "@busybox/tailwindcss-config": "2023.1.24-alpha.1451",
     "@busybox/tsconfig": "2023.1.24-alpha.1451",
-    "@playwright/test": "1.26.1",
+    "@playwright/test": "1.30.0",
     "@types/jasmine": "4.3.0",
     "autoprefixer": "10.4.12",
     "eslint": "8.23.1",
