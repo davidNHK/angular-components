@@ -30,7 +30,7 @@
     "@busybox/tsconfig": "2023.1.24-alpha.1451",
     "@playwright/test": "1.30.0",
     "@types/jasmine": "4.3.1",
-    "autoprefixer": "10.4.12",
+    "autoprefixer": "10.4.13",
     "eslint": "8.33.0",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
