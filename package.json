@@ -21,7 +21,7 @@
     "@angular-devkit/build-angular": "14.2.4",
     "@angular-eslint/builder": "14.1.2",
     "@angular-eslint/schematics": "14.1.2",
-    "@angular/cli": "14.2.4",
+    "@angular/cli": "15.2.2",
     "@angular/compiler-cli": "14.2.4",
     "@busybox/commitlint-config": "2023.1.24-alpha.1451",
     "@busybox/eslint-config": "2023.1.24-alpha.1451",
